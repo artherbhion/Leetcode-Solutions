@@ -26,4 +26,8 @@ SOLUTIONS OF LEETCODE PROBLEMS;
 |  |
 | ------- |
 | [0217-contains-duplicate](https://github.com/artherbhion/Leetcode-Solutions/tree/master/0217-contains-duplicate) |
+## String
+|  |
+| ------- |
+| [0058-length-of-last-word](https://github.com/artherbhion/Leetcode-Solutions/tree/master/0058-length-of-last-word) |
 <!---LeetCode Topics End-->
