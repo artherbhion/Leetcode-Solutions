@@ -5,11 +5,13 @@ SOLUTIONS OF LEETCODE PROBLEMS;
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/artherbhion/Leetcode-Solutions/tree/master/0004-median-of-two-sorted-arrays) |
+| [0035-search-insert-position](https://github.com/artherbhion/Leetcode-Solutions/tree/master/0035-search-insert-position) |
 | [0217-contains-duplicate](https://github.com/artherbhion/Leetcode-Solutions/tree/master/0217-contains-duplicate) |
 ## Binary Search
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/artherbhion/Leetcode-Solutions/tree/master/0004-median-of-two-sorted-arrays) |
+| [0035-search-insert-position](https://github.com/artherbhion/Leetcode-Solutions/tree/master/0035-search-insert-position) |
 ## Divide and Conquer
 |  |
 | ------- |
