@@ -5,6 +5,7 @@ SOLUTIONS OF LEETCODE PROBLEMS;
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/artherbhion/Leetcode-Solutions/tree/master/0004-median-of-two-sorted-arrays) |
+| [0217-contains-duplicate](https://github.com/artherbhion/Leetcode-Solutions/tree/master/0217-contains-duplicate) |
 ## Binary Search
 |  |
 | ------- |
@@ -17,4 +18,12 @@ SOLUTIONS OF LEETCODE PROBLEMS;
 |  |
 | ------- |
 | [0009-palindrome-number](https://github.com/artherbhion/Leetcode-Solutions/tree/master/0009-palindrome-number) |
+## Hash Table
+|  |
+| ------- |
+| [0217-contains-duplicate](https://github.com/artherbhion/Leetcode-Solutions/tree/master/0217-contains-duplicate) |
+## Sorting
+|  |
+| ------- |
+| [0217-contains-duplicate](https://github.com/artherbhion/Leetcode-Solutions/tree/master/0217-contains-duplicate) |
 <!---LeetCode Topics End-->
