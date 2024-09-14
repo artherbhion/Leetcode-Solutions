@@ -1,5 +1,3 @@
-#include <string.h>
-
 int longestCommonSubsequence(char* text1, char* text2) {
     int len1 = strlen(text1);
     int len2 = strlen(text2);
