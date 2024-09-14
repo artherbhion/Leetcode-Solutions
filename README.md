@@ -8,6 +8,7 @@ SOLUTIONS OF LEETCODE PROBLEMS:
 | [0035-search-insert-position](https://github.com/artherbhion/Leetcode-Solutions/tree/master/0035-search-insert-position) |
 | [0037-sudoku-solver](https://github.com/artherbhion/Leetcode-Solutions/tree/master/0037-sudoku-solver) |
 | [0217-contains-duplicate](https://github.com/artherbhion/Leetcode-Solutions/tree/master/0217-contains-duplicate) |
+| [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/artherbhion/Leetcode-Solutions/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 ## Binary Search
 |  |
 | ------- |
@@ -56,4 +57,12 @@ SOLUTIONS OF LEETCODE PROBLEMS:
 |  |
 | ------- |
 | [1250-longest-common-subsequence](https://github.com/artherbhion/Leetcode-Solutions/tree/master/1250-longest-common-subsequence) |
+## Bit Manipulation
+|  |
+| ------- |
+| [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/artherbhion/Leetcode-Solutions/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
+## Brainteaser
+|  |
+| ------- |
+| [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/artherbhion/Leetcode-Solutions/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 <!---LeetCode Topics End-->
