@@ -1,7 +1,5 @@
 SOLUTIONS OF LEETCODE PROBLEMS:
 <!---LeetCode Topics Start-->
-![LeetCode](https://facts.net/wp-content/uploads/2021/09/baymax-1024x576.jpeg)
-
 # LeetCode Topics
 ## Array
 |  |
