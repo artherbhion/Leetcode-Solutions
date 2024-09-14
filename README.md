@@ -34,6 +34,7 @@ SOLUTIONS OF LEETCODE PROBLEMS;
 |  |
 | ------- |
 | [0058-length-of-last-word](https://github.com/artherbhion/Leetcode-Solutions/tree/master/0058-length-of-last-word) |
+| [1250-longest-common-subsequence](https://github.com/artherbhion/Leetcode-Solutions/tree/master/1250-longest-common-subsequence) |
 | [2470-removing-stars-from-a-string](https://github.com/artherbhion/Leetcode-Solutions/tree/master/2470-removing-stars-from-a-string) |
 ## Backtracking
 |  |
@@ -51,4 +52,8 @@ SOLUTIONS OF LEETCODE PROBLEMS;
 |  |
 | ------- |
 | [2470-removing-stars-from-a-string](https://github.com/artherbhion/Leetcode-Solutions/tree/master/2470-removing-stars-from-a-string) |
+## Dynamic Programming
+|  |
+| ------- |
+| [1250-longest-common-subsequence](https://github.com/artherbhion/Leetcode-Solutions/tree/master/1250-longest-common-subsequence) |
 <!---LeetCode Topics End-->
