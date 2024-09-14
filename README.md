@@ -34,6 +34,7 @@ SOLUTIONS OF LEETCODE PROBLEMS;
 |  |
 | ------- |
 | [0058-length-of-last-word](https://github.com/artherbhion/Leetcode-Solutions/tree/master/0058-length-of-last-word) |
+| [2470-removing-stars-from-a-string](https://github.com/artherbhion/Leetcode-Solutions/tree/master/2470-removing-stars-from-a-string) |
 ## Backtracking
 |  |
 | ------- |
@@ -42,4 +43,12 @@ SOLUTIONS OF LEETCODE PROBLEMS;
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/artherbhion/Leetcode-Solutions/tree/master/0037-sudoku-solver) |
+## Stack
+|  |
+| ------- |
+| [2470-removing-stars-from-a-string](https://github.com/artherbhion/Leetcode-Solutions/tree/master/2470-removing-stars-from-a-string) |
+## Simulation
+|  |
+| ------- |
+| [2470-removing-stars-from-a-string](https://github.com/artherbhion/Leetcode-Solutions/tree/master/2470-removing-stars-from-a-string) |
 <!---LeetCode Topics End-->
