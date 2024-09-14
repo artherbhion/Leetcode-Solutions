@@ -6,6 +6,7 @@ SOLUTIONS OF LEETCODE PROBLEMS;
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/artherbhion/Leetcode-Solutions/tree/master/0004-median-of-two-sorted-arrays) |
 | [0035-search-insert-position](https://github.com/artherbhion/Leetcode-Solutions/tree/master/0035-search-insert-position) |
+| [0037-sudoku-solver](https://github.com/artherbhion/Leetcode-Solutions/tree/master/0037-sudoku-solver) |
 | [0217-contains-duplicate](https://github.com/artherbhion/Leetcode-Solutions/tree/master/0217-contains-duplicate) |
 ## Binary Search
 |  |
@@ -23,6 +24,7 @@ SOLUTIONS OF LEETCODE PROBLEMS;
 ## Hash Table
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/artherbhion/Leetcode-Solutions/tree/master/0037-sudoku-solver) |
 | [0217-contains-duplicate](https://github.com/artherbhion/Leetcode-Solutions/tree/master/0217-contains-duplicate) |
 ## Sorting
 |  |
@@ -32,4 +34,12 @@ SOLUTIONS OF LEETCODE PROBLEMS;
 |  |
 | ------- |
 | [0058-length-of-last-word](https://github.com/artherbhion/Leetcode-Solutions/tree/master/0058-length-of-last-word) |
+## Backtracking
+|  |
+| ------- |
+| [0037-sudoku-solver](https://github.com/artherbhion/Leetcode-Solutions/tree/master/0037-sudoku-solver) |
+## Matrix
+|  |
+| ------- |
+| [0037-sudoku-solver](https://github.com/artherbhion/Leetcode-Solutions/tree/master/0037-sudoku-solver) |
 <!---LeetCode Topics End-->
