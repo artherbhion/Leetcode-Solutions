@@ -6,23 +6,23 @@ class Solution {
                 dp[i][j]=-1;
             }
         }
-        return solve(dp,s,t,s.length()-1,t.length()-1);
+        return solve(dp,s,t,0,0);
     }
     public int solve(int[][] dp,String s,String t,int r,int c){
-        if(c<0){
+        if(c==t.length()){
             return 1;
         }
-        if(r<0){
+        if(r==s.length()){
             return 0;
         }
         if(dp[r][c]!=-1){
             return dp[r][c];
         }
         if(s.charAt(r)==t.charAt(c)){
-            dp[r][c]=solve(dp,s,t,r-1,c-1)+solve(dp,s,t,r-1,c);
+            dp[r][c]=solve(dp,s,t,r+1,c+1)+solve(dp,s,t,r+1,c);
         }
         else{
-            dp[r][c]=solve(dp,s,t,r-1,c);
+            dp[r][c]=solve(dp,s,t,r+1,c);
         }
         return dp[r][c];
     }
