@@ -20,6 +20,5 @@ class Solution {
             two--;
         }
        }
-       System.out.print(zero+" "+one+" "+two);
     }
 }
