@@ -11,7 +11,7 @@ class Solution {
             if(arr[i]==arr[i+1]){
                 return false;
             }
-            if(arr[i]<arr[i-1]&&arr[i]<arr[i+1] &&c==0){
+            if(arr[i]<arr[i-1]&&arr[i]<arr[i+1]){
                 return false;
             }
         }
