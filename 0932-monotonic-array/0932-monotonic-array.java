@@ -8,8 +8,7 @@ class Solution {
         if(nums[i]>=nums[i+1]){
             dc++;
         }
-     }
-     System.out.print(ic);
+     }     
      if(ic==nums.length-1||dc==nums.length-1){
         return true;
      }  
