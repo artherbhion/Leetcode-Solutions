@@ -1,13 +1,14 @@
 class Solution {
     public int climbStairs(int n) {
-        int pre=0;
-        int cur=1;
-        while(n>0){
-            int temp=pre+cur;
-            pre=cur;
-            cur=temp;
-            n--;
+      if(n==1){
+            return 1;
         }
-        return cur;
+       int pre=1,cur=2;
+       for(int i=2;i<n;i++){
+        int temp=cur;
+        cur=cur+pre;
+        pre=temp;
+       }
+       return cur; 
     }
 }
