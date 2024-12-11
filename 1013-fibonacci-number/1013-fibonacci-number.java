@@ -5,9 +5,8 @@ class Solution {
         }
        int pre=0,cur=1;
        for(int i=2;i<=n;i++){
-        int sum=pre+cur;
         int temp=cur;
-        cur=sum;
+        cur=cur+pre;
         pre=temp;
        }
        return cur;
