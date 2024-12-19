@@ -15,9 +15,6 @@ class Solution {
                 return i;
             }
         }
-        if(c<k){
-            return max+k-c;
-        }
-        return 0;
+        return max+k-c;
     }
 }
