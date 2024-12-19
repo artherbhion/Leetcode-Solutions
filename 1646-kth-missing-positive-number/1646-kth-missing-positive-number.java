@@ -15,7 +15,6 @@ class Solution {
                 return i;
             }
         }
-        System.out.print(c);
         if(c<k){
             return max+k-c;
         }
