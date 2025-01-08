@@ -15,9 +15,9 @@ class Solution {
                 return false;
             }
         }
-        if(arr[arr.length-1]>arr[arr.length-2] && c==1){
-            c++;
-        }
+        // if(arr[arr.length-1]>arr[arr.length-2] && c==1){
+        //     c++;
+        // }
         return c==1?true:false;
     }
 }
