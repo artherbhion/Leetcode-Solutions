@@ -14,7 +14,6 @@ char* reverseWords(char* s) {
             e=i-1;
             reverse(s,st,e);
             st=i+1;
-            printf("%d",st);
         }
     }
     return s;
