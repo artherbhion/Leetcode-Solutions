@@ -39,10 +39,10 @@ class Solution {
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
                 if (grid[i][j] == 1) {
-                    if (i == 0 || grid[i - 1][j] == 0) perimeter++; // Top
-                    if (i == rows - 1 || grid[i + 1][j] == 0) perimeter++; // Bottom
-                    if (j == 0 || grid[i][j - 1] == 0) perimeter++; // Left
-                    if (j == cols - 1 || grid[i][j + 1] == 0) perimeter++; // Right
+                    if (i == 0 || grid[i - 1][j] == 0) perimeter++;
+                    if (i == rows - 1 || grid[i + 1][j] == 0) perimeter++;
+                    if (j == 0 || grid[i][j - 1] == 0) perimeter++;
+                    if (j == cols - 1 || grid[i][j + 1] == 0) perimeter++;
                 }
             }
         }
