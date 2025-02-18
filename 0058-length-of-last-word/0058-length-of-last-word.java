@@ -10,7 +10,6 @@ class Solution {
                 break;
             }
         }
-        System.out.print(s);
         return l;
     }
 }
