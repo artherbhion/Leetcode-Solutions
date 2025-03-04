@@ -1,19 +1,19 @@
 class Solution {
     public List<String> generateParenthesis(int n) {
-        List<String> res=new ArrayList<>();
-        pragenerator(res,"",0,0,n);
-        return res;
+        List<String> result = new ArrayList<>();
+        generator(result,"",0,0,n);
+        return result;
     }
-    public static void  pragenerator(List<String> res,String str,int o,int c,int n){
+    public static void generator(List<String> result,String ans,int o,int c,int n){
         if(o+c==n*2){
-            res.add(str);
-            return;
+            result.add(ans);
+            return ;
         }
         if(o<n){
-            pragenerator(res,str+"(",o+1,c,n);
+           generator(result,ans+"(",o+1,c,n);
         }
         if(c<o){
-            pragenerator(res,str+")",o,c+1,n);
+            generator(result,ans+")",o,c+1,n);
         }
     }
 }
