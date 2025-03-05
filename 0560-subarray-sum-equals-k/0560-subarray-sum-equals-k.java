@@ -9,7 +9,8 @@ class Solution {
                 c+=map.get(cursum-k);
             }
             map.put(cursum,map.getOrDefault(cursum,0)+1);
-        }System.out.println(map);
+        }
+        // System.out.println(map);
         return c;
     }
 }
