@@ -7,17 +7,14 @@ class Solution {
        if(j1+j2==target)return true;
         c++;
         if(c==1000){
-             System.out.println(j1+","+j2+","+f);
             return false;
         }
         if(j1==target || j2==target){
             return true;
         }
         if(j1<0||j2<0){
-            System.out.println(j1+","+j2+","+f);
             return false;
         }
-        System.out.println(j1+","+j2+","+f);
         if(f==1){
             f=0;
             if(j1==0){
