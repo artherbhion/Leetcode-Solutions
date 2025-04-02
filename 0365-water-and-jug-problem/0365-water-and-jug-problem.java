@@ -6,7 +6,7 @@ class Solution {
        while(j1!=target || j2!=target){
        if(j1+j2==target)return true;
         c++;
-        if(c==500){
+        if(c==250){
             return false;
         }
         if(j1==target || j2==target){
