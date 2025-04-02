@@ -6,7 +6,7 @@ class Solution {
        while(j1!=target || j2!=target){
        if(j1+j2==target)return true;
         c++;
-        if(c==1000){
+        if(c==500){
             return false;
         }
         if(j1==target || j2==target){
@@ -32,7 +32,7 @@ class Solution {
         else if(j1<x && j2<y){
             f=1;
             int temp=j1;
-            j1=j2;
+        j1=j2;
             j2=temp;
         }
         else{
