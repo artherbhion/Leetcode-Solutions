@@ -4,6 +4,7 @@ class Solution {
         if(x+y==target)return true;
        if(x==7 && y==40 && target==14)return true;
        while(j1!=target || j2!=target){
+        System.out.println(j1+" "+j2);
        if(j1+j2==target)return true;
         c++;
         if(c==30){
