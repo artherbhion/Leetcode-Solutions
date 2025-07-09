@@ -3,7 +3,6 @@ class Solution {
         int l=m+n-1;
         n--;
         m--;
-
         while(n>=0 && m>=0){
             if(nums2[n]>nums1[m]){
                  nums1[l]=nums2[n--];
@@ -13,8 +12,8 @@ class Solution {
             }
             l--;
         }
-        while (n >= 0) {
-            nums1[l--] = nums2[n--];
+        while (n>=0) {
+            nums1[l--]=nums2[n--];
         }
     }
 }
