@@ -12,7 +12,6 @@ class Solution {
 
             }
         }
-        // System.out.print(map);
         return maxnum;
     }
 }
