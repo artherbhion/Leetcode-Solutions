@@ -17,7 +17,7 @@ class Solution {
             c++;
         }
         if(n==c)return head.next;
-        System.out.print(c);
+        // System.out.print(c);
         ListNode temp1=head;
         int i=1;
         while(temp1!=null){
