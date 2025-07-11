@@ -7,9 +7,7 @@ class Solution {
      int cursum=0;
      for(int i=0;i<nums.length;i++){
         cursum+=nums[i];
-        int left=cursum-nums[i];
-        int right=total-cursum;
-        if(left==right){
+        if(cursum-nums[i]==total-cursum){
             return i;
         }
      }
