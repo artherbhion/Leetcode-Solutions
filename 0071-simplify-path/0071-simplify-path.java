@@ -1,17 +1,17 @@
 class Solution {
     public String simplifyPath(String path) {
-        String[] components = path.split("/");
+        String[] patharr = path.split("/");
         Stack<String> st = new Stack<>();
-        for (String comp : components) {
-            if (comp.equals("") || comp.equals(".")) {
+        for (String i : patharr) {
+            if (i.equals("") || i.equals(".")) {
                 continue;
             }
-            if (comp.equals("..")) {
+            if (i.equals("..")) {
                 if (!st.isEmpty()) {
                     st.pop();
                 }
             } else {
-                st.push(comp);
+                st.push(i);
             }
         }
 
