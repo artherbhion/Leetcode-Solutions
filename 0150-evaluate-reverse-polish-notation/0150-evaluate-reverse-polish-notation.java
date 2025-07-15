@@ -12,19 +12,12 @@ class Solution {
                 int x = st.pop();
                 if (tokens[i].equals("+")) {
                     st.push(x + y);
-                    System.out.print(st.peek());
                 } else if (tokens[i].equals("-")) {
                     st.push(x - y);
-                    System.out.print(st.peek());
-
                 } else if (tokens[i].equals("*")) {
                     st.push(x * y);
-                    System.out.print(st.peek());
-
                 } else if (tokens[i].equals("/")){
                     st.push(x / y);
-                    System.out.print(st.peek());
-
                 }
                 }
             }
