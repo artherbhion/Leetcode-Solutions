@@ -4,8 +4,7 @@ class Solution {
         for (int i = 0; i < tokens.length; i++) {
             if (tokens[i].length()>1 || Character.isDigit(tokens[i].charAt(0))) {
                 int num = Integer.parseInt(tokens[i]);
-                st.push(num);                
-                System.out.print(st.peek());
+                st.push(num);
             } 
             else if(!st.isEmpty()){
                 int y = st.pop();
