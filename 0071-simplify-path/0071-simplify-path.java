@@ -3,7 +3,7 @@ class Solution {
         String[] patharr = path.split("/");
         Stack<String> st = new Stack<>();
         for (String i : patharr) {
-            if (i.equals("") || i.equals(".")) {
+            if ( i.equals("") || i.equals(".")) {
                 continue;
             }
             if (i.equals("..")) {
@@ -14,7 +14,7 @@ class Solution {
                 st.push(i);
             }
         }
-
+System.out.print(st);
         StringBuilder sb = new StringBuilder();
         while (!st.isEmpty()) {
             sb.insert(0,"/" + st.pop());
