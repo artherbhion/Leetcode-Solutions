@@ -14,13 +14,12 @@ public class Solution {
                 st.Push(str[i]);
             }
         }
-        if(st.Count==0)return "/";
         while(st.Count>0){
             if(st.Count!=0){
                 sb.Insert(0,st.Pop());
                 sb.Insert(0,"/");
             }
         }
-        return sb.ToString();
+        return sb.Length == 0 ? "/" : sb.ToString();
     }
 }
