@@ -1,30 +1,18 @@
 class Solution {
-    public int firstMissingPositive(int[] nums) {
-        // data filtering
-        for(int i = 0; i<nums.length;i++){
-            if(nums[i]<=0 || nums[i]>= nums.length+1){
-                nums[i] = nums.length+1;
-            }
+    public int firstMissingPositive(int[] nums) {        
+        HashSet<Integer> set=new HashSet<>(); 
+        int max=0;
+        for(int i=0;i<nums.length;i++){
+            set.add(nums[i]);
+            max=Math.max(max,nums[i]);
         }
-
-        // data visited and then mark that index as -ve
-        for(int i = 0;i<nums.length;i++){
-            int element = Math.abs(nums[i]);
-            if(element == nums.length+1){
-                continue;
+        int i=1;
+        while(i<max){
+            if(!set.contains(i)){
+                return i;
             }
-            int seat = element -1;
-            if(nums[seat] > 0){
-                nums[seat] = -nums[seat];
-            }
+            i++;
         }
-
-        // 
-        for(int i = 0;i<nums.length;i++){
-            if(nums[i]>0){
-                return i+1;
-            }
-        }
-        return nums.length+1;
+        return max+1;
     }
 }
